@@ -1,0 +1,79 @@
+.registercontainer {
+  position: relative;
+  min-height: 100vh;
+}
+.registerbody {
+  padding: 10px;
+  padding-bottom: 40px;
+}
+.registerfooter {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  line-height: 40px;
+  background-color: black;
+  color: antiquewhite;
+  width: 100%;
+}
+.rhraderinform {
+  font-size: 40px;
+  font-weight: 600;
+}
+.registerusername {
+  display: flex;
+  flex-direction: column;
+}
+.registerpassword {
+  display: flex;
+  flex-direction: column;
+}
+.registercpassword {
+  display: flex;
+  flex-direction: column;
+}
+.registercpasswordinput {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-width: 1px;
+  margin-top: 7px;
+  border-color: black;
+}
+.registerpasswordinput {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-width: 1px;
+  margin-top: 7px;
+  border-color: black;
+}
+.registerusernameinput {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-width: 1px;
+  margin-top: 7px;
+  border-color: black;
+}
+.registerform {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.registerbutton {
+  margin-top: 10px;
+}
+.registerbuttoninner {
+  background-color: black;
+  color: antiquewhite;
+  width: 100%;
+  height: 35px;
+  cursor: pointer;
+}
+
+
+
+

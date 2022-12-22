@@ -1,0 +1,100 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 60px;
+}
+.logo {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: xx-large;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.logo:hover {
+  color: antiquewhite;
+}
+.navricpe {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: medium;
+  cursor: pointer;
+}
+.navlogin {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: medium;
+  cursor: pointer;
+}
+.navright {
+  display: flex;
+  gap: 10px;
+  margin-right: 20px;
+}
+.navricpe:hover {
+  color: antiquewhite;
+} 
+.navlogin:hover {
+  color: antiquewhite;
+}
+@media only screen and (max-width:299px){
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .logo{
+    font-size: 24px;
+  } 
+  .navricpe{
+    font-size: 12px;
+  padding-bottom: 5px;
+  }
+  .navlogin{
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+
+}
+@media only screen and (min-width:300px) and (max-width:500px){
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .logo{
+    font-size: 24px;
+  } 
+  .navricpe{
+    font-size: 12px;
+  padding-bottom: 5px;
+  }
+  .navlogin{
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+}
+@media only screen and (min-width:501px) and (max-width:641px){
+  .navricpe{
+    font-size: 14px;
+  
+  }
+  .navlogin{
+    font-size: 14px;
+  
+  }
+}
+@media only screen and (min-width:642px) and (max-width:1007px){
+  .logo{
+    font-size: 34px;
+  } 
+  .navricpe{
+    font-size: 14px;
+
+  }
+  .navlogin{
+    font-size: 14px;
+  }
+}
+

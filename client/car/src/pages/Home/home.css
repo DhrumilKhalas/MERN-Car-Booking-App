@@ -1,0 +1,228 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeleft {
+  margin-top: 30px;
+  font-size: x-large;
+}
+.homecontainer {
+  min-height: 100vh;
+  position: relative;
+}
+.homebody {
+  padding: 10px;
+  padding-bottom: 40px;
+}
+.homefooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: antiquewhite;
+  line-height: 40px;
+}
+.carmapdivimg {
+  width: 200px;
+  height: 200px;
+}
+.carmapdiv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px #ccc;
+  border:1px solid black;
+}
+.carmapdiv:hover {
+  box-shadow: 20px 20px 20px #ccc;
+}
+.carmapdivouter {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+}
+.homeerror {
+  margin-top: 30px;
+  font-size: 25px;
+  color:crimson;
+  margin-bottom: 20px;
+}
+.homeloading {
+  margin-top: 30px;
+}
+.loginlineforrent {
+  font-size: 20px;
+  color: crimson;
+  font-weight: 500;
+}
+.carmapdivnameinner {
+  font-weight: 600;
+}
+.carmapdivfuelTypetwo {
+  font-weight: 500;
+}
+.carmapdivcapacitytwo {
+  font-weight: 500;
+}
+.carmapdivpayperdaytwo {
+  font-weight: 500;
+}
+.carmapdivouter {
+  margin-bottom: 50px;
+}
+.cardmapdivrentnow {
+  background-color: black;
+  color: antiquewhite;
+  height: 35px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 75px;
+  border-radius: 5px; 
+  border: none;
+}
+.cardmapdivrentnowlink {
+  color: antiquewhite;
+}
+.cardmapdivrentnowlink:hover {
+  color: antiquewhite;
+}
+@media only screen and (max-width:299px){
+  .homecontainer{
+      width: 100vw;
+  }
+  .homeimg{
+    width: 280px;
+    height: 200px;
+  }
+  .homeleft>h1{
+    font-size: 28px;
+  }
+  .topcarsinhome{
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .homefooter{
+    background-color: black;
+    color:antiquewhite;
+  }
+  .carmapdiv{
+    width: 100vw;
+
+  }
+  .homeerror{
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  
+}  
+@media only screen and (min-width:300px) and (max-width:500px){
+.homeimg{
+  width: 280px;
+  height: 200px;
+}
+.homecontainer{
+  width: 100vw;
+}
+.homeleft>h1{
+  font-size: 28px;
+}
+.topcarsinhome{
+  font-size: 18px;
+  margin-top: 20px;
+}
+.homefooter{
+  background-color: black;
+  color:antiquewhite;
+}
+.carmapdivouter{
+  width: 75%;
+}
+.homeerror{
+  font-size: 14px;
+  font-weight: 600;
+}
+}
+@media only screen and (min-width:501px) and (max-width:641px){
+  .homeimg{
+    width: 480px;
+    height: 320px;
+  }
+  .homecontainer{
+    width: 100vw;
+  }
+  .loginlineforrent{
+    font-size: 22px;
+  }
+  .topcarsinhome{
+    font-size: 30px;
+  }
+  .homeerror{
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width:642px) and (max-width:1007px){
+  .homeimg{
+    width: 620px;
+    height: 450px;
+  }
+  .homecontainer{
+    width: 100vw;
+  }
+  .loginlineforrent{
+    font-size: 20px;
+  }
+  .topcarsinhome{
+    font-size: 28px;
+  }
+  .homeleft>h1{
+    font-size: 42px;
+  }
+  .homeerror{
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width:1008px) and (max-width:1200px){
+  .homeimg{
+    width: 950px;
+    height: 700px;
+  }
+  .homecontainer{
+    width: 100vw;
+  }
+  .homeleft>h1{
+    font-size: 52px;
+  }
+  .topcarsinhome{
+    font-size: 32px;
+  }
+  .loginlineforrent{
+    font-size: 22px;
+  }
+  .homeerror{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .homeerror{
+    font-size: 22px;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width:1201px){
+  .homeerror{
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+

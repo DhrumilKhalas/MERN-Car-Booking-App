@@ -1,0 +1,517 @@
+.carcontainer {
+  position: relative;
+  min-height: 100vh;
+}
+.carbody {
+  padding: 10px;
+  padding-bottom: 40px;
+}
+.carfooter {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background-color: black;
+  color: antiquewhite;
+}
+.carbyidmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carbyidinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carbyidinfoall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carbyidinfoinfo {
+  flex: 1;
+}
+.carbyidinfoimg {
+  flex: 2;
+}
+.carbyidtitle {
+  color: grey;
+  font-size: 40px;
+}
+.carbyidinfoinfoname {
+  font-size: 30px;
+  font-weight: 700;
+}
+.carbyidinfoimginner {
+  width: 700px;
+  height: 500px;
+}
+.carbyidinfoinfofueltype {
+  padding: 10px;
+  margin-top: 10px;
+}
+.carbyidinfoinfocapacity {
+  padding: 10px;
+}
+.carbyidinfoinfopayperday {
+  padding: 10px;
+}
+.fueltypeinidinner {
+  font-size: 25px;
+  font-weight: 600;
+}
+.capacityinidinner {
+  font-size: 25px;
+  font-weight: 600;
+}
+.payperdayinidinner {
+  font-size: 25px;
+  font-weight: 600;
+}
+.fueltypeinid {
+  font-weight: 700;
+  color: grey;
+  font-size: 25px;
+}
+.capacityinid {
+  font-weight: 700;
+  color: grey;
+  font-size: 25px;
+}
+.payperdayinid {
+  font-weight: 700;
+  color: grey;
+  font-size: 25px;
+}
+.carbyidinfoinfoname {
+  font-size: 50px;
+  color: black;
+}
+.nameinid {
+  text-align: center;
+  font-size: 40px;
+}
+.infoinid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infoinidfuel {
+  padding: 20px;
+}
+.infoinidcapa {
+  padding: 20px;
+}
+.infoinidpay {
+  padding: 20px;
+}
+.infoinidfuelone {
+  color: grey;
+  font-size: 25px;
+  font-weight: 600;
+}
+.infoinidcapaone {
+  color: grey;
+  font-size: 25px;
+  font-weight: 600;
+}
+.infoinidpayone {
+  color: grey;
+  font-size: 25px;
+  font-weight: 600;
+}
+.infoinidfueltwo {
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.infoinidcapatwo {
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.infoinidpaytwo {
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.infoinidrightinner {
+  width: 600px;
+  height: 400px;
+}
+.nameinid {
+  font-weight: 600 !important;
+}
+.rentbelowinid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nameinidtwoinner {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+}
+.rentbelowinid {
+  border: 1px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+  box-shadow: 10px 10px 10px #ccc;
+}
+.rentbelowinid:hover {
+  box-shadow: 20px 20px 20px #ccc;
+}
+.rentnowbtn {
+  background-color: black;
+  color: antiquewhite;
+  width: 300px;
+  height: 40px;
+  cursor: pointer;
+}
+.rangepiekcer {
+  margin-bottom: 30px;
+}
+.rangepiekcerinner {
+  height: 40px;
+  border-color: black;
+}
+.amoutdetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: large;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.totaldays {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.fueltypetotal {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.capacitytotal {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.payperdaytotal {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.drivertotal {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.drivertotaltwo {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.totalamount {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.totaldaysone {
+  color: grey;
+}
+.fueltypetotalone {
+  color: grey;
+}
+.capacitytotalone {
+  color: grey;
+}
+.payperdaytotalone {
+  color: grey;
+}
+.drivertotalone {
+  color: grey;
+}
+.totaldaystwo {
+  font-weight: 500;
+}
+.fueltypetotaltwo {
+  font-weight: 500;
+}
+.capacitytotaltwo {
+  font-weight: 500;
+}
+.payperdaytotaltwo {
+  font-weight: 500;
+}
+.drivertotaltwo {
+  font-weight: 500;
+}
+@media only screen and (max-width: 299px) {
+  
+  .infoinidrightinner {
+    width: 280px;
+    height: 170px;
+  }
+  .infoinid {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #errorincarbyid {
+    font-size: 16px;
+  }
+  .nameinid {
+    font-size: 24px;
+  }
+  .infoinidfuelone {
+    font-size: 22px;
+  }
+  .infoinidfueltwo {
+    font-size: 22px;
+  }
+  .infoinidcapaone {
+    font-size: 22px;
+  }
+  .infoinidcapatwo {
+    font-size: 22px;
+  }
+  .infoinidpayone {
+    font-size: 22px;
+  }
+  .infoinidpaytwo {
+    font-size: 22px;
+  }
+  .infoinidpay {
+    padding: 0;
+  }
+  .infoinidfuel {
+    padding: 0;
+  }
+  .infoinidcapa {
+    padding: 0;
+  }
+  .infoinidleft{
+    margin-top: 20px;
+    border:1px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .nameinidtwoinner{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .totaldays{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+  }
+  .fueltypetotal{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+  }
+  .capacitytotal{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+  }
+  .payperdaytotal{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+  }
+.drivertotal{
+  display: flex;
+  flex-direction: column;
+
+}
+.drivertotal{
+  width: 50%;
+  text-align: center;
+}
+.totaldaystwo{
+font-size: 26px;
+font-weight: 600
+}
+.fueltypetotaltwo{
+  font-size: 26px;
+  font-weight: 600
+}
+.capacitytotaltwo{
+  font-size: 26px;
+  font-weight: 600
+}
+.payperdaytotaltwo{
+  font-size: 26px;
+  font-weight: 600
+}
+.totalamount{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.totalamountone{
+  font-size: 26px;
+}
+.totalamounttwo{
+  font-size: 26px;
+  border:1px solid black;
+  padding: 5px;
+}
+.rentnowbtn{
+  width: 100%;
+  height: max-content;
+  width: max-content;
+  border:none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.rangepiekcer{
+  width: 94%;
+  margin-left:auto;
+  margin-right: auto;
+}
+.rentbelowinid{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
+
+@media only screen and (min-width: 300px) and (max-width:650px){
+
+  
+  .infoinid{
+display: flex;
+flex-direction: column-reverse;
+  }
+  .infoinidleft{
+    border: 1px solid black;
+    margin-bottom: 30px;
+  }
+  .infoinidrightinner{
+    width: 280px;
+    height: 250px;
+  }
+  #errorincarbyid {
+    font-size: 16px;
+  }
+  .nameinid {
+    font-size: 28px;
+  }
+  .nameinidtwoinner{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .totaldays{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+  }
+  .fueltypetotal{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+  }
+  .capacitytotal{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+  }
+  .payperdaytotal{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+  }
+.drivertotal{
+  display: flex;
+  flex-direction: column;
+
+}
+.drivertotal{
+  width: 50%;
+  text-align: center;
+}
+.totaldaystwo{
+font-size: 26px;
+font-weight: 600
+}
+.fueltypetotaltwo{
+  font-size: 26px;
+  font-weight: 600
+}
+.capacitytotaltwo{
+  font-size: 26px;
+  font-weight: 600
+}
+.payperdaytotaltwo{
+  font-size: 26px;
+  font-weight: 600
+}
+.totalamount{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.totalamountone{
+  font-size: 26px;
+}
+.totalamounttwo{
+  font-size: 26px;
+  border:1px solid black;
+  padding: 5px;
+}
+.rentnowbtn{
+  width: 100%;
+  height: max-content;
+  width: max-content;
+  border:none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rentbelowinid{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+}
+
+@media only screen and (min-width: 651px) and (max-width:1007px){
+.infoinidrightinner{
+  width: 300px;
+  height: 200px;
+}
+.rentbelowinid{
+  margin-top: 30px;
+}
+
+
+}
+
